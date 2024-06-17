@@ -1,0 +1,84 @@
+<!Doctype html>
+<html>
+<head>
+	<meta name="Revanth" content="developer">
+	<meta charset="utf-8">
+	<meta name="description" content="Forms in HTML">
+	
+	<meta name="keyword" content="TAGS,tags,forms">
+	<title>FORM TAGS IN HTML</title>
+
+</head>
+<body>
+	<form action="sample.html" method="get" target="_blank">
+		<fieldset>
+		<label for="name"> Enter Your Name:</label>&#160;&#160;&#160;&#160;
+		<input type="text" id="name" required autofocus></input><br><br>
+
+		<label for="email">Enter email id:</label>
+		<input type="email" id="email" disabled></input>
+		<br><br>
+
+		<label for="pass">Password:</label>
+		<input type="password" id="pass">
+		<br>
+		<br>
+
+		<label for="Gender">Gender:</label>
+		<input type="radio" id="Gender" value="MALE">MALE </input>
+		<input type="radio" id="Gender" value="FEMALE">FEMALE </input>
+		<input type="radio" id="Gender" value="Others">Others </input>
+		<br>
+		<br>
+
+		<label for="hobbies">Choose Your Hobbies:</label><br>
+		<input type="checkbox" id="hobbies" value="Playing Cricket">Playing Cricket </input><br>
+
+		<input type="checkbox" id="hobbies" value="Watching TV">Watching TV</input><br>
+		<input type="checkbox" id="hobbies" value="Reading Books">Reading Books</input><br>
+		<input type="checkbox" id="hobbies" value="Others">Others</input><br>
+		<br>
+		<label for="sports">Choose your Favorite Sport:</label><br>
+		<input type="text" id="sports"></input>
+        <select> 
+			<option>Cricket</option><br>
+			<option>FootBall</option><br>
+			<option>VollyBall</option><br>
+			<option>Batminton</option><br>
+			<option>Table Tennis</option><br>
+
+		</select><br><br>
+
+		<label for="color">Choose your favorite colors:</label>
+		<input type="text" list="color" placeholder="Choose your color">
+		<datalist id="color">
+			<option >Choose your color</option>
+			<option>Black</option><br>
+			<option>Blue</option><br>
+			<option>Green</option><br>
+			<option>Yellow</option><br>
+			<option>White</option><br>
+
+			
+		</datalist><br>
+		<br>
+	</fieldset>
+		<fieldset>
+			<legend>Adress</legend>
+
+		<textarea rows="7" cols="32" placeholder="Enter your details:"></textarea><br>
+		<input type="Submit" >&#160;&#160;&#160; <input type="Reset">
+	    </fieldset>
+			
+
+		
+
+
+
+
+
+
+
+	</form>
+</body>
+</html>

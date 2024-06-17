@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+			.abc{
+				background-color:lightcyan;
+				margin : 20px;
+				display : flex;
+				/*flex-direction: row;
+				flex-wrap: wrap;*/
+				flex-flow: row wrap;
+				text-align: center;
+				align-content: center;
+			}
+			.abc div{
+				flex : auto;
+
+			}
+			.a{
+				align-content: center;
+				background-color: red;
+				border : solid;
+				height : 50px;
+				width : 50px;
+				z-index: 3;
+				margin : 20px;
+				font-size : 30px;
+			}
+			.b{
+				align-content: center;
+				background-color: aqua;
+				border : solid;
+				left : 50px;
+				height : 50px;
+				width : 50px;
+				z-index : 2;
+				margin : 20px;
+				font-size : 30px;
+			}
+			.c{
+				background-color: green;
+				border : solid;
+				height : 50px;
+				width : 50px;
+				z-index: 1;
+				margin : 20px;
+				font-size : 30px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="abc"> 
+		<div class="a">a</div>
+		<div class="b">b</div>
+		<div class="c">c</div>
+		<div class="a">d</div>
+		<div class="b">e</div>
+		<div class="c">f</div>
+		<div class="a">g</div>
+		<div class="b">h</div>
+		<div class="c">i</div>
+		<div class="a">j</div>
+		<div class="b">k</div>
+		<div class="c">l</div>
+		<div class="a">m</div>
+		<div class="b">n</div>
+		<div class="c">o</div>
+		</div>
+	</body>
+</html>

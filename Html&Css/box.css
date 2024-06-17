@@ -1,0 +1,18 @@
+#box{
+        color : rgb(29, 29, 194);
+        font-size : 30px;
+        background-color: antiquewhite;
+        padding : 70px;
+        text-align: center;
+        border : solid green;
+        border-width: 40px;
+        margin : 40px;
+        width : 400px;
+        height : 200px;
+    }
+    body{
+        background-color: black;
+        border : dashed yellow;
+    }
+
+
