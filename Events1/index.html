@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    
+    <style>
+        body{
+            margin: 0px;
+
+        }
+        .bg{
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            animation: ss 10s infinite;
+            background-repeat: no-repeat;
+            background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY5MTk3NS13aWtpbWVkaWEtaW1hZ2Uta293YjI4OTguanBn.jpg");
+        }
+        h1{
+            text-align: center;
+            color: rgb(255, 0, 0);
+            font-size: 60px;
+        }
+        img{
+            position: absolute;
+            height: 60px;
+            width: 60px;
+            margin-left: 920px;
+            margin-top: -94px;
+            background: transparent;
+        }
+        h3{
+            text-align: center;
+            color: green;
+            font-size: 60px;
+        }
+        label{
+            color: brown;
+            font-size: 30px;
+        }
+        input{
+            font-size: 25px;
+        }
+        button{
+            font-size: 25px;
+        }
+        button:hover{
+            background-color: orange;
+        }
+        @keyframes ss{
+           
+            50%{
+                background-image: url("https://static.vecteezy.com/system/resources/thumbnails/024/234/201/small/elegant-golden-stage-horizontal-glowing-with-lighting-effect-sparkle-on-dark-background-template-premium-award-design-vector.jpg");
+            }
+            70%{
+                background-image: url("https://media.istockphoto.com/id/613518332/photo/christmas-lights-defocused-background-bokeh-gold-blue.webp?b=1&s=170667a&w=0&k=20&c=y8s-CaBv3ajVgtie30QVO6ADc2OkDEkyffeCDgIswyc=");
+            }
+            90%{
+                background-image: url("https://previews.123rf.com/images/inbevel13/inbevel131510/inbevel13151000007/47069451-party-people-crowd-festive-disco-event-background-vector-illustration.jpg");
+            }
+            95%{
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdEAtAHc6MLGbqxd24E8Ni84h-NKcNF-e0Lw&usqp=CAU");
+            }
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <div class="bg">
+    <h1>Cobra Tech</h1><img src="https://c8.alamy.com/comp/DMYNXR/king-cobra-vector-DMYNXR.jpg">
+    <h3>Event Management System</h3><br><br><br><br>
+    <form action="event.html" align="center">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required placeholder="Email address"><br><br><br>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" placeholder="Password" ><br><br><br>
+        <button type="submit">Login</button>
+
+    </form>
+    </div>
+
+</body>
+</html>
