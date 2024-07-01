@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dom using formdata</title>
+
+    </head>
+    <body>
+        <form id="abc">
+            <input type="text" name="username">
+            <br>
+            <br>
+            <input type="email" name="email">
+            <br>
+            <br>
+            <button type="button" onclick="getvalues()">Click me</button>
+        </form>
+        <script>
+            function getvalues(){
+                var x =document.getElementById("abc");
+                var z =new FormData(x);
+                for(var values of z.entries()){
+                    console.log(values[0]+" : "+ values[1])
+
+                        }
+                    }
+        </script>
+
+    </body>
+</html>
